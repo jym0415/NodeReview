@@ -1,0 +1,25 @@
+{
+  "name": "nodeset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jym0415/NodeReview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jym0415/NodeReview/issues"
+  },
+  "homepage": "https://github.com/jym0415/NodeReview#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  }
+}
